@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Frmcontacto.css">
+</head>
+<body>
+    <header>
+        <img src="./Img/incap.png" alt="incap" width="100" height="100">
+        <h1> FORMULARIO INCAP</h1>
+    </header>
+    <nav>
+        <p> Este formulario es para registrar el ingreso de un estudiante </p>
+    </nav>
+    <section>
+        <!-- sección de formulario de ingreso estudiante -->
+        <form action="">
+            <fieldset>
+                <label for="">Nombre Completo:</label>
+                <input type="text" placeholder="Ingrese su nombre completo" autofocus required>
+                <br><br>
+                <label for="">E-mil:</label>
+                <input type="email" placeholder="ingrese su correo personal" required>
+                <br><br>
+                <label for="">Contraseña:</label>
+                <input type="password" placeholder="ingrese su contraseña personal" required>
+                <br><br>
+                <!-- Seccion de boton checkbox -->
+                <label for=""> Seleccione tus hobbies:</label>
+                <br>
+                <input type="checkbox">Cine
+                <input type="checkbox">Lectura
+                <input type="checkbox">Deporte 
+                <br><br>
+                <!-- Sección de boton radio  -->
+                <label for="">Estado Civil:</label>
+                <br>
+                <input type="radio" name="estado Civil"  value="Casado">casado(a)
+                <input type="radio" name="estado Civil" value="Soltero">Soltero(a)
+                <input type="radio" name="estado Civil" value="Viudo">Viuda(a)
+                <br><br>
+                <label for="">Programas ténicos Incap:</label>
+                <br>
+                <select name="" id="">
+                    <option value="">Seleccione programa</option>
+                    <br>
+                    <option value="sistema">Programación BBDD</option>
+                    <br>
+                    <option value="diseño">Diseño gráfico</option>
+                    <br>
+                    <option value="contabilidad">Contabilidad</option>
+                    <br>
+                </select>
+                <br>
+                <label for="">Fecha de nacimiento:</label>
+                <input type="date" title="ingrese su fecha de nacimiento">
+                <br>
+                <label for="">Ingrese su edad:</label>
+                <input type="number" min="1" max="120">
+                <br><br>
+                <label for="">Subir foto-archivo:</label>
+                <input type="file">
+                <br>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </fieldset>
+            <br><br>
+            <!-- sección de botones de enviar y cancelar envio de datos -->
+            <button type="submit">Enviar</button>
+            <button type="reset">cancelar</button>
+            <br><br>
+        </form>
+    </section>
+<footer>
+    <cite>Derechos reservados &copy;2023 @Katherine Torres</cite>
+</footer>
+</body>
+</html>
